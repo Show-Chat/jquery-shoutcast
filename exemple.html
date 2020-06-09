@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+   <html>
+   <head>
+      <title>Mi Radio</title>
+   </head>
+   <body>
+      
+      <h1 data-shoutcast-value="servertitle"></h1>
+      
+      <p>Acuma pe RadioClick: <span data-shoutcast-value="songtitle"></span></p>
+      <p>Ascultatorii: <span data-shoutcast-value="currentlisteners"></span>/<span data-shoutcast-value="maxlisteners"></span></p>
+      
+      <h2>ISTORIE - ultimele piese cantate</h2>
+      <ul id="played"></ul>
+      
+      
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+      <script src="jquery.shoutcast.easy.min.js?host=167.114.207.230&port=8008"></script>
+   </body>
+   </html>
